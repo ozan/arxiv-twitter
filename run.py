@@ -21,7 +21,7 @@ CONFIG = (
     # Computer Vision
     Source('CSCV', 'http://export.arxiv.org/rss/cs.CV'),
     # Computation and Language
-    # Source('CSCL', 'http://export.arxiv.org/rss/cs.CL'),
+    Source('CSCL', 'http://export.arxiv.org/rss/cs.CL'),
     # Human Computer Interaction
     Source('CSHC', 'http://export.arxiv.org/rss/cs.HC'),
     # Graphics
