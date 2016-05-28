@@ -18,7 +18,14 @@ Tweet = namedtuple('Tweet', ('status',))
 Source = namedtuple('Source', ('id', 'url'))
 
 CONFIG = (
+    # Computer Vision
     Source('CSCV', 'http://export.arxiv.org/rss/cs.CV'),
+    # Computation and Language
+    # Source('CSCL', 'http://export.arxiv.org/rss/cs.CL'),
+    # Human Computer Interaction
+    Source('CSHC', 'http://export.arxiv.org/rss/cs.HC'),
+    # Graphics
+    # Source('CSGR', 'http://export.arxiv.org/rss/cs.GR'),
 )
 
 
@@ -54,7 +61,7 @@ def send_tweet(api, tweet):
         api.PostUpdate(tweet.status)
         log.info('Sent "{}"'.format(tweet.status))
     except twitter.TwitterError as e:
-        log.warn('Failed to send "{}": {}'.format(tweet.status, e.message))
+        log.warning('Failed to send "{}": {}'.format(tweet.status, e.message))
 
 
 if __name__ == '__main__':
@@ -63,7 +70,7 @@ if __name__ == '__main__':
     for source in CONFIG:
         res = requests.get(source.url)
         if not res.ok:
-            log.warn('Failed on {}: {}'.format(source.url, res.reason))
+            log.warning('Failed on {}: {}'.format(source.url, res.reason))
             continue
         api = twitter.Api(
             consumer_key=os.environ['CONSUMER_KEY'],
