@@ -25,7 +25,7 @@ CONFIG = (
     # Human Computer Interaction
     Source('CSHC', 'http://export.arxiv.org/rss/cs.HC'),
     # Graphics
-    # Source('CSGR', 'http://export.arxiv.org/rss/cs.GR'),
+    Source('CSGR', 'http://export.arxiv.org/rss/cs.GR'),
 )
 
 
