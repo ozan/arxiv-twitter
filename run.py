@@ -2,11 +2,16 @@
 
 from collections import namedtuple
 from datetime import datetime
+import logging
 import os
+import sys
 import xml.etree.ElementTree as ET
 
 import requests
 import twitter
+
+log = logging.getLogger()
+log.addHandler(logging.StreamHandler(sys.stdout))
 
 Article = namedtuple('Article', ('title', 'link', 'description'))
 Tweet = namedtuple('Tweet', ('status',))
@@ -47,18 +52,18 @@ def send_tweet(api, tweet):
     """
     try:
         api.PostUpdate(tweet.status)
-        print('Sent "{}"'.format(tweet.status))
+        log.info('Sent "{}"'.format(tweet.status))
     except twitter.TwitterError as e:
-        msg = e.message['message']
-        print('Failed to send "{}": {}'.format(tweet.status, msg))
+        log.warn('Failed to send "{}": {}'.format(tweet.status, e.message))
 
 
 if __name__ == '__main__':
-    print('Running run.py on {}'.format(datetime.now()))  # TODO log
+    log.info('Running run.py on {}'.format(datetime.now()))
+
     for source in CONFIG:
         res = requests.get(source.url)
         if not res.ok:
-            print('Failed on {}: {}'.format(source.url, res.reason))
+            log.warn('Failed on {}: {}'.format(source.url, res.reason))
             continue
         api = twitter.Api(
             consumer_key=os.environ['CONSUMER_KEY'],
