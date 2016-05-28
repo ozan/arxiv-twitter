@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>cs.CV updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Computer Science -- Computer Vision and Pattern Recognition (cs.CV) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2016-05-26T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Computer Science -- Computer Vision and Pattern Recognition</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/1605.08068" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1605.08104" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1605.08110" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1605.08125" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1605.08140" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1605.08151" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1605.08153" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1605.08154" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1605.08163" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1605.08179" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1605.08247" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1605.08283" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1605.08313" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1605.08323" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1605.08350" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1605.08359" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1605.08397" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1605.08401" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1605.08412" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1602.02660" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1602.02720" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1602.05531" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1604.07666" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1604.08806" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1605.05579" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1605.07912" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/1605.08068">
+<title>Real-Time Human Motion Capture with Multiple Depth Cameras. (arXiv:1605.08068v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1605.08068</link>
+<description rdf:parseType="Literal">&lt;p&gt;Commonly used human motion capture systems require intrusive attachment of
+markers that are visually tracked with multiple cameras. In this work we
+present an efficient and inexpensive solution to markerless motion capture
+using only a few Kinect sensors. Unlike the previous work on 3d pose estimation
+using a single depth camera, we relax constraints on the camera location and do
+not assume a co-operative user. We apply recent image segmentation techniques
+to depth images and use curriculum learning to train our system on purely
+synthetic data. Our method accurately localizes body parts without requiring an
+explicit shape model. The body joint locations are then recovered by combining
+evidence from multiple views in real-time. We also introduce a dataset of ~6
+million synthetic depth frames for pose estimation from multiple cameras and
+exceed state-of-the-art results on the Berkeley MHAD dataset.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shafaei_A/0/1/0/all/0/1&quot;&gt;Alireza Shafaei&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Little_J/0/1/0/all/0/1&quot;&gt;James J. Little&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1605.08104">
+<title>Deep Predictive Coding Networks for Video Prediction and Unsupervised Learning. (arXiv:1605.08104v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1605.08104</link>
+<description rdf:parseType="Literal">&lt;p&gt;While great strides have been made in using deep learning algorithms to solve
+supervised learning tasks, the problem of unsupervised learning - leveraging
+unlabeled examples to learn about the structure of a domain - remains a
+difficult unsolved challenge. Here, we explore prediction of future frames in a
+video sequence as an unsupervised learning rule for learning about the
+structure of the visual world. We describe a predictive neural network
+(&quot;PredNet&quot;) architecture that is inspired by the concept of &quot;predictive coding&quot;
+from the neuroscience literature. These networks learn to predict future frames
+in a video sequence, with each layer in the network making local predictions
+and only forwarding deviations from those predictions to subsequent network
+layers. We show that these networks are able to robustly learn to predict the
+movement of synthetic (rendered) objects, and that in doing so, the networks
+learn internal representations that are useful for decoding latent object
+parameters (e.g. pose) that support object recognition with fewer training
+views. We also show that these networks can scale to complex natural image
+streams (car-mounted camera videos), capturing key aspects of both egocentric
+movement and the movement of objects in the visual scene, and generalizing
+across video datasets. These results suggest that prediction represents a
+powerful framework for unsupervised learning, allowing for implicit learning of
+object and scene structure.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lotter_W/0/1/0/all/0/1&quot;&gt;William Lotter&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kreiman_G/0/1/0/all/0/1&quot;&gt;Gabriel Kreiman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cox_D/0/1/0/all/0/1&quot;&gt;David Cox&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1605.08110">
+<title>Video Summarization with Long Short-term Memory. (arXiv:1605.08110v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1605.08110</link>
+<description rdf:parseType="Literal">&lt;p&gt;We propose a novel supervised learning technique for summarizing videos by
+automatically selecting keyframes or key subshots. Casting the problem as a
+structured prediction problem on sequential data, our main idea is to use Long
+Short-Term Memory (LSTM), a special type of recurrent neural networks to model
+the variable-range dependencies entailed in the task of video summarization.
+Our learning models attain the state-of-the-art results on two benchmark video
+datasets. Detailed analysis justifies the design of the models. In particular,
+we show that it is crucial to take into consideration the sequential structures
+in videos and model them. Besides advances in modeling techniques, we introduce
+techniques to address the need of a large number of annotated data for training
+complex learning models. There, our main idea is to exploit the existence of
+auxiliary annotated video datasets, albeit heterogeneous in visual styles and
+contents. Specifically, we show domain adaptation techniques can improve
+summarization by reducing the discrepancies in statistical properties across
+those datasets.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_K/0/1/0/all/0/1&quot;&gt;Ke Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chao_W/0/1/0/all/0/1&quot;&gt;Wei-Lun Chao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sha_F/0/1/0/all/0/1&quot;&gt;Fei Sha&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Grauman_K/0/1/0/all/0/1&quot;&gt;Kristen Grauman&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1605.08125">
+<title>Automatic Action Annotation in Weakly Labeled Videos. (arXiv:1605.08125v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1605.08125</link>
+<description rdf:parseType="Literal">&lt;p&gt;Manual spatio-temporal annotation of human action in videos is laborious,
+requires several annotators and contains human biases. In this paper, we
+present a weakly supervised approach to automatically obtain spatio-temporal
+annotations of an actor in action videos. We first obtain a large number of
+action proposals in each video. To capture a few most representative action
+proposals in each video and evade processing thousands of them, we rank them
+using optical flow and saliency in a 3D-MRF based framework and select a few
+proposals using MAP based proposal subset selection method. We demonstrate that
+this ranking preserves the high quality action proposals. Several such
+proposals are generated for each video of the same action. Our next challenge
+is to iteratively select one proposal from each video so that all proposals are
+globally consistent. We formulate this as Generalized Maximum Clique Graph
+problem using shape, global and fine grained similarity of proposals across the
+videos. The output of our method is the most action representative proposals
+from each video. Our method can also annotate multiple instances of the same
+action in a video. We have validated our approach on three challenging action
+datasets: UCF Sport, sub-JHMDB and THUMOS&apos;13 and have obtained promising
+results compared to several baseline methods. Moreover, on UCF Sports, we
+demonstrate that action classifiers trained on these automatically obtained
+spatio-temporal annotations have comparable performance to the classifiers
+trained on ground truth annotation.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sultani_W/0/1/0/all/0/1&quot;&gt;Waqas Sultani&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shah_M/0/1/0/all/0/1&quot;&gt;Mubarak Shah&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1605.08140">
+<title>Temporal attention filters for human activity recognition in videos. (arXiv:1605.08140v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1605.08140</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this paper, we newly introduce the concept of temporal attention filters,
+and describe how they can be used for human activity recognition from videos.
+Many high-level activities are often composed of multiple temporal parts (e.g.,
+sub-events) with different duration/speed, and our objective is to make the
+model explicitly consider such temporal structure using multiple temporal
+filters. Our attention filters are designed to be fully differentiable,
+allowing end-of-end training of the temporal filters together with the
+underlying frame-based or segment-based convolutional neural network
+architectures. The paper not only presents an approach of learning optimal
+static temporal attention filters to be shared across different videos, but
+also describes an approach of dynamically adjusting attention filters per
+testing video using recurrent long short-term memory networks (LSTMs). We
+experimentally confirm that the proposed concept of temporal attention filters
+benefits the activity recognition tasks by capturing the temporal structure in
+videos.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Piergiovanni_A/0/1/0/all/0/1&quot;&gt;AJ Piergiovanni&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Fan_C/0/1/0/all/0/1&quot;&gt;Chenyou Fan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ryoo_M/0/1/0/all/0/1&quot;&gt;Michael S. Ryoo&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1605.08151">
+<title>Predicting Visual Exemplars of Unseen Classes for Zero-Shot Learning. (arXiv:1605.08151v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1605.08151</link>
+<description rdf:parseType="Literal">&lt;p&gt;Leveraging class semantic descriptions and examples of known objects,
+zero-shot learning makes it possible to train a recognition model for an object
+class whose examples are not available. In this paper, we propose a novel
+zero-shot learning model that takes advantage of clustering structures in the
+semantic embedding space. The key idea is to impose the structural constraint
+that semantic representations must be predictive of the locations of its
+corresponding visual exemplars. To this end, this reduces to training multiple
+kernel-based regressors from semantic representation-exemplar pairs from
+labeled data of the seen object categories. Despite its simplicity, our
+approach significantly outperforms existing zero-shot learning methods in three
+out of four benchmark datasets, including the ImageNet dataset with more than
+20,000 unseen categories.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Changpinyo_S/0/1/0/all/0/1&quot;&gt;Soravit Changpinyo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chao_W/0/1/0/all/0/1&quot;&gt;Wei-Lun Chao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sha_F/0/1/0/all/0/1&quot;&gt;Fei Sha&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1605.08153">
+<title>DeepMovie: Using Optical Flow and Deep Neural Networks to Stylize Movies. (arXiv:1605.08153v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1605.08153</link>
+<description rdf:parseType="Literal">&lt;p&gt;A recent paper by Gatys et al. describes a method for rendering an image in
+the style of another image. First, they use convolutional neural network
+features to build a statistical model for the style of an image. Then they
+create a new image with the content of one image but the style statistics of
+another image. Here, we extend this method to render a movie in a given
+artistic style. The naive solution that independently renders each frame
+produces poor results because the features of the style move substantially from
+one frame to the next. The other naive method that initializes the optimization
+for the next frame using the rendered version of the previous frame also
+produces poor results because the features of the texture stay fixed relative
+to the frame of the movie instead of moving with objects in the scene. The main
+contribution of this paper is to use optical flow to initialize the style
+transfer optimization so that the texture features move with the objects in the
+video. Finally, we suggest a method to incorporate optical flow explicitly into
+the cost function.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Anderson_A/0/1/0/all/0/1&quot;&gt;Alexander G. Anderson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Berg_C/0/1/0/all/0/1&quot;&gt;Cory P. Berg&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mossing_D/0/1/0/all/0/1&quot;&gt;Daniel P. Mossing&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Olshausen_B/0/1/0/all/0/1&quot;&gt;Bruno A. Olshausen&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1605.08154">
+<title>A single scale retinex based method for palm vein extraction. (arXiv:1605.08154v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1605.08154</link>
+<description rdf:parseType="Literal">&lt;p&gt;Palm vein recognition is a novel biometric identification technology. But how
+to gain a better vein extraction result from the raw palm image is still a
+challenging problem, especially when the raw data collection has the problem of
+asymmetric illumination. This paper proposes a method based on single scale
+Retinex algorithm to extract palm vein image when strong shadow presents due to
+asymmetric illumination and uneven geometry of the palm. We test our method on
+a multispectral palm image. The experimental result shows that the proposed
+method is robust to the influence of illumination angle and shadow. Compared to
+the traditional extraction methods, the proposed method can obtain palm vein
+lines with better visualization performance (the contrast ratio increases by
+18.4%, entropy increases by 1.07%, and definition increases by 18.8%).
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_C/0/1/0/all/0/1&quot;&gt;Chongyang Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Peng_M/0/1/0/all/0/1&quot;&gt;Ming Peng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xu_L/0/1/0/all/0/1&quot;&gt;Lingfeng Xu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_T/0/1/0/all/0/1&quot;&gt;Tong Chen&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1605.08163">
+<title>Multiple target tracking based on sets of trajectories. (arXiv:1605.08163v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1605.08163</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper proposes the set of target trajectories as the state variable for
+multiple target tracking. The main objective of multiple target tracking is to
+estimate an unknown number of target trajectories given a sequence of
+measurements. This quantity of interest is perfectly represented as a set of
+trajectories without the need of arbitrary parameters such as labels or
+ordering. We use finite-set statistics to pose this problem in the Bayesian
+framework and formulate a state space model where the random state is a random
+finite set that contains trajectories. All information of interest is thus
+contained in the multitrajectory filtering probability density function (PDF),
+which represents the multitrajectory PDF of the set of trajectories given the
+measurements. For the standard measurement and dynamic models, we describe a
+family of PDFs that is conjugate in the sense that the multitrajectory
+filtering PDF remains within that family during both the prediction and update
+steps.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Garcia_Fernandez_A/0/1/0/all/0/1&quot;&gt;&amp;#xc1;ngel F. Garc&amp;#xed;a-Fern&amp;#xe1;ndez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Svensson_L/0/1/0/all/0/1&quot;&gt;Lennart Svensson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Morelande_M/0/1/0/all/0/1&quot;&gt;Mark R. Morelande&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1605.08179">
+<title>Discovering Causal Signals in Images. (arXiv:1605.08179v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/1605.08179</link>
+<description rdf:parseType="Literal">&lt;p&gt;The purpose of this paper is to point out and assay observable causal signals
+within collections of static images. We achieve this goal in two steps. First,
+we take a learning approach to observational causal inference, and build a
+classifier that achieves state-of-the-art performance on finding the causal
+direction between pairs of random variables, when given samples from their
+joint distribution. Second, we use our causal direction finder to effectively
+distinguish between features of objects and features of their contexts in
+collections of static images. Our experiments demonstrate the existence of (1)
+a relation between the direction of causality and the difference between
+objects and their contexts, and (2) observable causal signals in collections of
+static images.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Lopez_Paz_D/0/1/0/all/0/1&quot;&gt;David Lopez-Paz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Nishihara_R/0/1/0/all/0/1&quot;&gt;Robert Nishihara&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Chintala_S/0/1/0/all/0/1&quot;&gt;Soumith Chintala&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Scholkopf_B/0/1/0/all/0/1&quot;&gt;Bernhard Sch&amp;#xf6;lkopf&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Bottou_L/0/1/0/all/0/1&quot;&gt;L&amp;#xe9;on Bottou&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1605.08247">
+<title>cvpaper.challenge in 2015 - A review of CVPR2015 and DeepSurvey. (arXiv:1605.08247v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1605.08247</link>
+<description rdf:parseType="Literal">&lt;p&gt;The &quot;cvpaper.challenge&quot; is a group composed of members from AIST, Tokyo Denki
+Univ. (TDU), and Univ. of Tsukuba that aims to systematically summarize papers
+on computer vision, pattern recognition, and related fields. For this
+particular review, we focused on reading the ALL 602 conference papers
+presented at the CVPR2015, the premier annual computer vision event held in
+June 2015, in order to grasp the trends in the field. Further, we are proposing
+&quot;DeepSurvey&quot; as a mechanism embodying the entire process from the reading
+through all the papers, the generation of ideas, and to the writing of paper.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kataoka_H/0/1/0/all/0/1&quot;&gt;Hirokatsu Kataoka&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Miyashita_Y/0/1/0/all/0/1&quot;&gt;Yudai Miyashita&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yamabe_T/0/1/0/all/0/1&quot;&gt;Tomoaki Yamabe&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shirakabe_S/0/1/0/all/0/1&quot;&gt;Soma Shirakabe&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sato_S/0/1/0/all/0/1&quot;&gt;Shin&amp;#x27;ichi Sato&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hoshino_H/0/1/0/all/0/1&quot;&gt;Hironori Hoshino&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kato_R/0/1/0/all/0/1&quot;&gt;Ryo Kato&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Abe_K/0/1/0/all/0/1&quot;&gt;Kaori Abe&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Imanari_T/0/1/0/all/0/1&quot;&gt;Takaaki Imanari&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kobayashi_N/0/1/0/all/0/1&quot;&gt;Naomichi Kobayashi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Morita_S/0/1/0/all/0/1&quot;&gt;Shinichiro Morita&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nakamura_A/0/1/0/all/0/1&quot;&gt;Akio Nakamura&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1605.08283">
+<title>Discrete Deep Feature Extraction: A Theory and New Architectures. (arXiv:1605.08283v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/1605.08283</link>
+<description rdf:parseType="Literal">&lt;p&gt;First steps towards a mathematical theory of deep convolutional neural
+networks for feature extraction were made---for the continuous-time case---in
+Mallat, 2012, and Wiatowski and B\&quot;olcskei, 2015. This paper considers the
+discrete case, introduces new convolutional neural network architectures, and
+proposes a mathematical framework for their analysis. Specifically, we
+establish deformation and translation sensitivity results of local and global
+nature, and we investigate how certain structural properties of the input
+signal are reflected in the corresponding feature vectors. Our theory applies
+to general filters and general Lipschitz-continuous non-linearities and pooling
+operators. Experiments on handwritten digit classification and facial landmark
+detection---including feature importance evaluation---complement the
+theoretical findings.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wiatowski_T/0/1/0/all/0/1&quot;&gt;Thomas Wiatowski&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tschannen_M/0/1/0/all/0/1&quot;&gt;Michael Tschannen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Stanic_A/0/1/0/all/0/1&quot;&gt;Aleksandar Stani&amp;#x107;&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Grohs_P/0/1/0/all/0/1&quot;&gt;Philipp Grohs&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bolcskei_H/0/1/0/all/0/1&quot;&gt;Helmut B&amp;#xf6;lcskei&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1605.08313">
+<title>A Light-powered, Always-On, Smart Camera with Compressed Domain Gesture Detection. (arXiv:1605.08313v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1605.08313</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this paper we propose an energy-e?cient camera-based gesture recognition
+system powered by light energy for \al- ways on&quot; applications. Low energy
+consumption is achieved by directly extracting gesture features from the
+compressed measurements, which are the block averages and the linear
+combinations of the image sensor&apos;s pixel values. The ges- tures are recognized
+using a nearest-neighbour (NN) classi- ?er followed by Dynamic Time Warping
+(DTW). The sys- tem has been implemented on an Analog Devices Black Fin ULP
+vision processor and powered by PV cells whose output is regulated by TI&apos;s
+DC-DC buck converter with Maximum Power Point Tracking (MPPT). Measured data
+reveals that with only 400 compressed measurements (768? compression ratio) per
+frame, the system is able to recognize key wake- up gestures with greater than
+80% accuracy and only 95mJ of energy per frame. Owing to its fully self-powered
+op- eration, the proposed system can ?nd wide applications in \always-on&quot;
+vision systems such as in surveillance, robotics and consumer electronics with
+touch-less operation.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+A_A/0/1/0/all/0/1&quot;&gt;Anvesha A&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xu_S/0/1/0/all/0/1&quot;&gt;Shaojie Xu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cao_N/0/1/0/all/0/1&quot;&gt;Ningyuan Cao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Romberg_J/0/1/0/all/0/1&quot;&gt;Justin Romberg&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Raychowdhury_A/0/1/0/all/0/1&quot;&gt;Arijit Raychowdhury&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1605.08323">
+<title>Aerial image geolocalization from recognition and matching of roads and intersections. (arXiv:1605.08323v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1605.08323</link>
+<description rdf:parseType="Literal">&lt;p&gt;Aerial image analysis at a semantic level is important in many applications
+with strong potential impact in industry and consumer use, such as automated
+mapping, urban planning, real estate and environment monitoring, or disaster
+relief. The problem is enjoying a great interest in computer vision and remote
+sensing, due to increased computer power and improvement in automated image
+understanding algorithms. In this paper we address the task of automatic
+geolocalization of aerial images from recognition and matching of roads and
+intersections. Our proposed method is a novel contribution in the literature
+that could enable many applications of aerial image analysis when GPS data is
+not available. We offer a complete pipeline for geolocalization, from the
+detection of roads and intersections, to the identification of the enclosing
+geographic region by matching detected intersections to previously learned
+manually labeled ones, followed by accurate geometric alignment between the
+detected roads and the manually labeled maps. We test on a novel dataset with
+aerial images of two European cities and use the publicly available
+OpenStreetMap project for collecting ground truth roads annotations. We show in
+extensive experiments that our approach produces highly accurate localizations
+in the challenging case when we train on images from one city and test on the
+other and the quality of the aerial images is relatively poor. We also show
+that the the alignment between detected roads and pre-stored manual annotations
+can be effectively used for improving the quality of the road detection
+results.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Costea_D/0/1/0/all/0/1&quot;&gt;Dragos Costea&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Leordeanu_M/0/1/0/all/0/1&quot;&gt;Marius Leordeanu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1605.08350">
+<title>Benign-Malignant Lung Nodule Classification with Geometric and Appearance Histogram Features. (arXiv:1605.08350v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1605.08350</link>
+<description rdf:parseType="Literal">&lt;p&gt;Lung cancer accounts for the highest number of cancer deaths globally. Early
+diagnosis of lung nodules is very important to reduce the mortality rate of
+patients by improving the diagnosis and treatment of lung cancer. This work
+proposes an automated system to classify lung nodules as malignant and benign
+in CT images. It presents extensive experimental results using a combination of
+geometric and histogram lung nodule image features and different linear and
+non-linear discriminant classifiers. The proposed approach is experimentally
+validated on the LIDC-IDRI public lung cancer screening thoracic computed
+tomography (CT) dataset containing nodule level diagnostic data. The obtained
+results are very encouraging correctly classifying 82% of malignant and 93% of
+benign nodules on unseen test data at best.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shewaye_T/0/1/0/all/0/1&quot;&gt;Tizita Nesibu Shewaye&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mekonnen_A/0/1/0/all/0/1&quot;&gt;Alhayat Ali Mekonnen&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1605.08359">
+<title>Pairwise Decomposition of Image Sequences for Active Multi-View Recognition. (arXiv:1605.08359v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1605.08359</link>
+<description rdf:parseType="Literal">&lt;p&gt;A multi-view image sequence provides a much richer capacity for object
+recognition than from a single image. However, most existing solutions to
+multi-view recognition typically adopt hand-crafted, model-based geometric
+methods, which do not readily embrace recent trends in deep learning. We
+propose to bring Convolutional Neural Networks to generic multi-view
+recognition, by decomposing an image sequence into a set of image pairs,
+classifying each pair independently, and then learning an object classifier by
+weighting the contribution of each pair. This allows for recognition over
+arbitrary camera trajectories, without requiring explicit training over the
+potentially infinite number of camera paths and lengths. Building these
+pairwise relationships then naturally extends to the next-best-view problem in
+an active recognition framework. To achieve this, we train a second
+Convolutional Neural Network to map directly from an observed image to next
+viewpoint. Finally, we incorporate this into a trajectory optimisation task,
+whereby the best recognition confidence is sought for a given trajectory
+length. We present state-of-the-art results in both guided and unguided
+multi-view recognition on the ModelNet dataset, and show how our method can be
+used with depth images, greyscale images, or both.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Johns_E/0/1/0/all/0/1&quot;&gt;Edward Johns&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Leutenegger_S/0/1/0/all/0/1&quot;&gt;Stefan Leutenegger&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Davison_A/0/1/0/all/0/1&quot;&gt;Andrew J. Davison&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1605.08397">
+<title>Domain Transfer Multi-Instance Dictionary Learning. (arXiv:1605.08397v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1605.08397</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this paper, we invest the domain transfer learning problem with
+multi-instance data. We assume we already have a well-trained multi-instance
+dictionary and its corresponding classifier from the source domain, which can
+be used to represent and classify the bags. But it cannot be directly used to
+the target domain. Thus we propose to adapt them to the target domain by adding
+an adaptive term to the source domain classifier. The adaptive function is a
+linear function based a domain transfer multi-instance dictionary. Given a
+target domain bag, we first map it to a bag-level feature space using the
+domain transfer dictionary, and then apply a the linear adaptive function to
+its bag-level feature vector. To learn the domain-transfer dictionary and the
+adaptive function parameter, we simultaneously minimize the average
+classification error of the target domain classifier over the target domain
+training set, and the complexities of both the adaptive function parameter and
+the domain transfer dictionary. The minimization problem is solved by an
+iterative algorithm which update the dictionary and the function parameter
+alternately. Experiments over several benchmark data sets show the advantage of
+the proposed method over existing state-of-the-art domain transfer
+multi-instance learning methods.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_K/0/1/0/all/0/1&quot;&gt;Ke Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_J/0/1/0/all/0/1&quot;&gt;Jiayong Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gonzalez_D/0/1/0/all/0/1&quot;&gt;Daniel Gonz&amp;#xe1;lez&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1605.08401">
+<title>Dense Volume-to-Volume Vascular Boundary Detection. (arXiv:1605.08401v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1605.08401</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this work, we present a novel 3D-Convolutional Neural Network (CNN)
+architecture called I2I-3D that predicts boundary location in volumetric data.
+Our fine-to-fine, deeply supervised framework addresses three critical issues
+to 3D boundary detection: (1) efficient, holistic, end-to-end volumetric label
+training and prediction (2) precise voxel-level prediction to capture fine
+scale structures prevalent in medical data and (3) directed multi-scale,
+multi-level feature learning. We evaluate our approach on a dataset consisting
+of 93 medical image volumes with a wide variety of anatomical regions and
+vascular structures. In the process, we also introduce HED-3D, a 3D extension
+of the state-of-the-art 2D edge detector (HED). We show that our deep learning
+approach out-performs, the current state-of-the-art in 3D vascular boundary
+detection (structured forests 3D), by a large margin, as well as HED applied to
+slices, and HED-3D while successfully localizing fine structures. With our
+approach, boundary detection takes about one minute on a typical 512x512x512
+volume.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Merkow_J/0/1/0/all/0/1&quot;&gt;Jameson Merkow&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kriegman_D/0/1/0/all/0/1&quot;&gt;David Kriegman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Marsden_A/0/1/0/all/0/1&quot;&gt;Alison Marsden&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tu_Z/0/1/0/all/0/1&quot;&gt;Zhuowen Tu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1605.08412">
+<title>CITlab ARGUS for historical handwritten documents. (arXiv:1605.08412v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/1605.08412</link>
+<description rdf:parseType="Literal">&lt;p&gt;We describe CITlab&apos;s recognition system for the HTRtS competition attached to
+the 13. International Conference on Document Analysis and Recognition, ICDAR
+2015. The task comprises the recognition of historical handwritten documents.
+The core algorithms of our system are based on multi-dimensional recurrent
+neural networks (MDRNN) and connectionist temporal classification (CTC). The
+software modules behind that as well as the basic utility technologies are
+essentially powered by PLANET&apos;s ARGUS framework for intelligent text
+recognition and image processing.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Leifert_G/0/1/0/all/0/1&quot;&gt;Gundram Leifert&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Strauss_T/0/1/0/all/0/1&quot;&gt;Tobias Strau&amp;#xdf;&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gruning_T/0/1/0/all/0/1&quot;&gt;Tobias Gr&amp;#xfc;ning&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Labahn_R/0/1/0/all/0/1&quot;&gt;Roger Labahn&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1602.02660">
+<title>Exploiting Cyclic Symmetry in Convolutional Neural Networks. (arXiv:1602.02660v2 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/1602.02660</link>
+<description rdf:parseType="Literal">&lt;p&gt;Many classes of images exhibit rotational symmetry. Convolutional neural
+networks are sometimes trained using data augmentation to exploit this, but
+they are still required to learn the rotation equivariance properties from the
+data. Encoding these properties into the network architecture, as we are
+already used to doing for translation equivariance by using convolutional
+layers, could result in a more efficient use of the parameter budget by
+relieving the model from learning them. We introduce four operations which can
+be inserted into neural network models as layers, and which can be combined to
+make these models partially equivariant to rotations. They also enable
+parameter sharing across different orientations. We evaluate the effect of
+these architectural modifications on three datasets which exhibit rotational
+symmetry and demonstrate improved performance with smaller models.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Dieleman_S/0/1/0/all/0/1&quot;&gt;Sander Dieleman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Fauw_J/0/1/0/all/0/1&quot;&gt;Jeffrey De Fauw&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kavukcuoglu_K/0/1/0/all/0/1&quot;&gt;Koray Kavukcuoglu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1602.02720">
+<title>Multimodal Remote Sensing Image Registration with Accuracy Estimation at Local and Global Scales. (arXiv:1602.02720v2 [cs.CV] UPDATED)</title>
+<link>http://arxiv.org/abs/1602.02720</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper focuses on potential accuracy of remote sensing images
+registration. We investigate how this accuracy can be estimated without ground
+truth available and used to improve registration quality of mono- and
+multi-modal pair of images. At the local scale of image fragments, the
+Cramer-Rao lower bound (CRLB) on registration error is estimated for each local
+correspondence between coarsely registered pair of images. This CRLB is defined
+by local image texture and noise properties. Opposite to the standard approach,
+where registration accuracy is only evaluated at the output of the registration
+process, such valuable information is used by us as an additional input
+knowledge. It greatly helps detecting and discarding outliers and refining the
+estimation of geometrical transformation model parameters. Based on these
+ideas, a new area-based registration method called RAE (Registration with
+Accuracy Estimation) is proposed. In addition to its ability to automatically
+register very complex multimodal image pairs with high accuracy, the RAE method
+provides registration accuracy at the global scale as covariance matrix of
+estimation error of geometrical transformation model parameters or as
+point-wise registration Standard Deviation. This accuracy does not depend on
+any ground truth availability and characterizes each pair of registered images
+individually. Thus, the RAE method can identify image areas for which a
+predefined registration accuracy is guaranteed. The RAE method is proved
+successful with reaching subpixel accuracy while registering eight complex
+mono/multimodal and multitemporal image pairs including optical to optical,
+optical to radar, optical to Digital Elevation Model (DEM) images and DEM to
+radar cases. Other methods employed in comparisons fail to provide in a stable
+manner accurate results on the same test cases.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Uss_M/0/1/0/all/0/1&quot;&gt;M.L. Uss&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Vozel_B/0/1/0/all/0/1&quot;&gt;B. Vozel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lukin_V/0/1/0/all/0/1&quot;&gt;V.V. Lukin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chehdi_K/0/1/0/all/0/1&quot;&gt;K. Chehdi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1602.05531">
+<title>On the Use of Deep Learning for Blind Image Quality Assessment. (arXiv:1602.05531v3 [cs.CV] UPDATED)</title>
+<link>http://arxiv.org/abs/1602.05531</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this work we investigate the use of deep learning for distortion-generic
+blind image quality assessment. We report on different design choices, ranging
+from the use of features extracted from pre-trained Convolutional Neural
+Networks (CNNs) as a generic image description, to the use of features
+extracted from a CNN fine-tuned for the image quality task. Our best proposal,
+named DeepBIQ, estimates the image quality by average pooling the scores
+predicted on multiple sub-regions of the original image. The score of each
+sub-region is computed using a Support Vector Regression (SVR) machine taking
+as input features extracted using a CNN fine-tuned for category-based image
+quality assessment. Experimental results on the LIVE In the Wild Image Quality
+Challenge Database and on the LIVE Image Quality Assessment Database show that
+DeepBIQ outperforms the state-of-the-art methods compared, having a Linear
+Correlation Coefficient (LCC) with human subjective scores of almost 0.91 and
+0.98 respectively. Furthermore, in most of the cases, the quality score
+predictions of DeepBIQ are closer to the average observer than those of a
+generic human observer.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bianco_S/0/1/0/all/0/1&quot;&gt;Simone Bianco&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Celona_L/0/1/0/all/0/1&quot;&gt;Luigi Celona&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Napoletano_P/0/1/0/all/0/1&quot;&gt;Paolo Napoletano&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Schettini_R/0/1/0/all/0/1&quot;&gt;Raimondo Schettini&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1604.07666">
+<title>$\ell_p$-Box ADMM: A Versatile Framework for Integer Programming. (arXiv:1604.07666v2 [cs.CV] UPDATED)</title>
+<link>http://arxiv.org/abs/1604.07666</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper revisits the integer programming (IP) problem, which plays a
+fundamental role in many computer vision and machine learning applications. The
+literature abounds with many seminal works that address this problem, some
+focusing on continuous approaches (e.g. linear program relaxation) while others
+on discrete ones (e.g., min-cut). However, a limited number of them are
+designed to handle the general IP form and even these methods cannot adequately
+satisfy the simultaneous requirements of accuracy, feasibility, and
+scalability. To this end, we propose a novel and versatile framework called
+$\ell_p$-box ADMM, which is based on two parts. (1) The discrete constraint is
+equivalently replaced by the intersection of a box and a $(n-1)$-dimensional
+sphere (defined through the $\ell_p$ norm). (2) We infuse this equivalence into
+the ADMM (Alternating Direction Method of Multipliers) framework to handle
+these continuous constraints separately and to harness its attractive
+properties. More importantly, the ADMM update steps can lead to manageable
+sub-problems in the continuous domain. To demonstrate its efficacy, we consider
+an instance of the framework, namely $\ell_2$-box ADMM applied to binary
+quadratic programming (BQP). Here, the ADMM steps are simple, computationally
+efficient, and theoretically guaranteed to converge to a KKT point. We
+demonstrate the applicability of $\ell_2$-box ADMM on three important
+applications: MRF energy minimization, graph matching, and clustering. Results
+clearly show that it significantly outperforms existing generic IP solvers both
+in runtime and objective. It also achieves very competitive performance vs.
+state-of-the-art methods specific to these applications.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wu_B/0/1/0/all/0/1&quot;&gt;Baoyuan Wu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ghanem_B/0/1/0/all/0/1&quot;&gt;Bernard Ghanem&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1604.08806">
+<title>3D Interest Point Detection Based on Geometric Measures and Sparse Refinement. (arXiv:1604.08806v2 [cs.CV] UPDATED)</title>
+<link>http://arxiv.org/abs/1604.08806</link>
+<description rdf:parseType="Literal">&lt;p&gt;Three dimensional (3D) interest point detection plays a fundamental role in
+computer vision. In this paper, we introduce a new method for detecting 3D
+interest points of 3D mesh models based on geometric measures and sparse
+refinement (GMSR). The key point of our approach is to calculate the 3D
+saliency measure using two novel geometric measures, which are defined in
+multi-scale space to effectively distinguish 3D interest points from edges and
+flat areas. Those points with local maxima of 3D saliency measure are selected
+as the candidates of 3D interest points. Finally, we utilize an $l_0$ norm
+based optimization method to refine the candidates of 3D interest points by
+constraining the number of 3D interest points. Numerical experiments show that
+the proposed GMSR based 3D interest point detector outperforms current six
+state-of-the-art methods for different kinds of 3D mesh models.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lin_X/0/1/0/all/0/1&quot;&gt;Xinyu Lin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhu_C/0/1/0/all/0/1&quot;&gt;Ce Zhu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_Q/0/1/0/all/0/1&quot;&gt;Qian Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_Y/0/1/0/all/0/1&quot;&gt;Yipeng Liu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1605.05579">
+<title>Low-Rank Matrices on Graphs: Generalized Recovery &amp; Applications. (arXiv:1605.05579v3 [cs.CV] UPDATED)</title>
+<link>http://arxiv.org/abs/1605.05579</link>
+<description rdf:parseType="Literal">&lt;p&gt;Many real world datasets subsume a linear or non-linear low-rank structure in
+a very low-dimensional space. Unfortunately, one often has very little or no
+information about the geometry of the space, resulting in a highly
+under-determined recovery problem. Under certain circumstances,
+state-of-the-art algorithms provide an exact recovery for linear low-rank
+structures but at the expense of highly inscalable algorithms which use nuclear
+norm. However, the case of non-linear structures remains unresolved. We revisit
+the problem of low-rank recovery from a totally different perspective,
+involving graphs which encode pairwise similarity between the data samples and
+features. Surprisingly, our analysis confirms that it is possible to recover
+many approximate linear and non-linear low-rank structures with recovery
+guarantees with a set of highly scalable and efficient algorithms. We call such
+data matrices as \textit{Low-Rank matrices on graphs} and show that many real
+world datasets satisfy this assumption approximately due to underlying
+stationarity. Our detailed theoretical and experimental analysis unveils the
+power of the simple, yet very novel recovery framework \textit{Fast Robust PCA
+on Graphs}
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shahid_N/0/1/0/all/0/1&quot;&gt;Nauman Shahid&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Perraudin_N/0/1/0/all/0/1&quot;&gt;Nathanael Perraudin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Vandergheynst_P/0/1/0/all/0/1&quot;&gt;Pierre Vandergheynst&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1605.07912">
+<title>Encode, Review, and Decode: Reviewer Module for Caption Generation. (arXiv:1605.07912v2 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/1605.07912</link>
+<description rdf:parseType="Literal">&lt;p&gt;We propose a novel module, the reviewer module, to improve the
+encoder-decoder learning framework. The reviewer module is generic, and can be
+plugged into an existing encoder-decoder model. The reviewer module performs a
+number of review steps with attention mechanism on the encoder hidden states,
+and outputs a fact vector after each review step; the fact vectors are used as
+the input of the attention mechanism in the decoder. We show that the
+conventional encoder-decoders are a special case of our framework. Empirically,
+we show that our framework can improve over state-of-the-art encoder-decoder
+systems on the tasks of image captioning and source code captioning.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yang_Z/0/1/0/all/0/1&quot;&gt;Zhilin Yang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yuan_Y/0/1/0/all/0/1&quot;&gt;Ye Yuan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wu_Y/0/1/0/all/0/1&quot;&gt;Yuexin Wu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Salakhutdinov_R/0/1/0/all/0/1&quot;&gt;Ruslan Salakhutdinov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cohen_W/0/1/0/all/0/1&quot;&gt;William W. Cohen&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
