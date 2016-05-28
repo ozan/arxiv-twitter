@@ -18,12 +18,12 @@ Tweet = namedtuple('Tweet', ('status',))
 Source = namedtuple('Source', ('id', 'url'))
 
 CONFIG = (
-    # # Computer Vision
-    # Source('CSCV', 'http://export.arxiv.org/rss/cs.CV'),
-    # # Computation and Language
-    # Source('CSCL', 'http://export.arxiv.org/rss/cs.CL'),
-    # # Human Computer Interaction
-    # Source('CSHC', 'http://export.arxiv.org/rss/cs.HC'),
+    # Computer Vision
+    Source('CSCV', 'http://export.arxiv.org/rss/cs.CV'),
+    # Computation and Language
+    Source('CSCL', 'http://export.arxiv.org/rss/cs.CL'),
+    # Human Computer Interaction
+    Source('CSHC', 'http://export.arxiv.org/rss/cs.HC'),
     # Graphics
     Source('CSGR', 'http://export.arxiv.org/rss/cs.GR'),
 )
