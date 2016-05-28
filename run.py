@@ -11,7 +11,7 @@ import requests
 import twitter
 
 log = logging.getLogger()
-log.addHandler(logging.StreamHandler(sys.stdout))
+log.addHandler(logging.StreamHandler(sys.stderr))
 
 Article = namedtuple('Article', ('title', 'link', 'description'))
 Tweet = namedtuple('Tweet', ('status',))
